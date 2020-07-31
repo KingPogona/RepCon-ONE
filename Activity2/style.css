@@ -1,0 +1,62 @@
+.all {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.background { 
+    /* The image used */
+    background-image: url("/Users/asherclawson/Desktop/Boot-Camp/VSC/UofU Ativities/Activity2/DSC02810.jpg");
+
+/* Set a specific height */
+    height: 800px; 
+
+
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(4px);
+
+}
+
+.test {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.mainImage {
+    width:300px;
+    height:300px;
+    justify-content: center;
+}
+
+
+
+.topHalf {
+    position: absolute;
+}
+
+.bottomHalf {
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-items: center;
+    text-align: center;
+}
+
+a:link {
+    color: lightblue; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.myListStyle {
+    list-style: none
+}
+
